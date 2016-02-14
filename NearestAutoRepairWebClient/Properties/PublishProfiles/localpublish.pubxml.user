@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\www\NearestAutoRepairShop.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>02/07/2016 01:44:28</publishTime>
+    </File>
+    <File Include="Account/Login.aspx">
+      <publishTime>02/05/2016 14:39:44</publishTime>
+    </File>
+    <File Include="Account/Register.aspx">
+      <publishTime>02/05/2016 14:39:44</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>02/04/2016 16:17:37</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>02/04/2016 16:17:37</publishTime>
+    </File>
+    <File Include="bin/IdentityDAL.dll">
+      <publishTime>02/07/2016 16:30:37</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>02/04/2016 16:17:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>02/04/2016 16:17:37</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>02/04/2016 16:37:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>02/04/2016 16:37:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>02/04/2016 16:37:49</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>02/04/2016 17:40:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>02/04/2016 17:40:06</publishTime>
+    </File>
+    <File Include="bin/Models/IdentityConfig.cs">
+      <publishTime>02/03/2016 23:21:47</publishTime>
+    </File>
+    <File Include="bin/Models/IdentityModel.cs">
+      <publishTime>02/04/2016 04:11:22</publishTime>
+    </File>
+    <File Include="bin/NearestAutoRepairWebClient.dll">
+      <publishTime>02/07/2016 16:30:40</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>02/03/2016 15:12:53</publishTime>
+    </File>
+    <File Include="Content/Images/person-2.png">
+      <publishTime>02/07/2016 00:06:37</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>02/05/2016 14:18:59</publishTime>
+    </File>
+    <File Include="Examples.aspx">
+      <publishTime>02/05/2016 21:45:35</publishTime>
+    </File>
+    <File Include="GeoLocation.aspx">
+      <publishTime>01/31/2016 18:21:55</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>01/29/2016 15:46:50</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>02/04/2016 17:40:08</publishTime>
+    </File>
+    <File Include="Service References/NearestRepairRef/NearestAutoRepairWebClient.NearestRepairRef.AutoRepairShopInfo.datasource">
+      <publishTime>02/01/2016 20:29:56</publishTime>
+    </File>
+    <File Include="Service References/NearestRepairRef/NearestAutoRepairWebClient.NearestRepairRef.AutoRepairShopInfoList.datasource">
+      <publishTime>02/01/2016 20:29:56</publishTime>
+    </File>
+    <File Include="Service References/NearestRepairRef/NearestAutoRepairWebClient.NearestRepairRef.AutoRepairShopInfos.datasource">
+      <publishTime>02/01/2016 20:29:56</publishTime>
+    </File>
+    <File Include="Service References/NearestRepairRef/NearestAutoRepairWebClient.NearestRepairRef.AutoRepairWCF.datasource">
+      <publishTime>02/01/2016 20:29:56</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>02/07/2016 01:30:37</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/07/2016 16:30:41</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>02/02/2016 19:59:06</publishTime>
+    </File>
+    <File Include="WebForm2.aspx">
+      <publishTime>02/07/2016 01:40:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

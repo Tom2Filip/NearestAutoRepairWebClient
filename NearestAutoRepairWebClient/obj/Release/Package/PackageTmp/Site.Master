@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="NearestAutoRepairWebClient.Site" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <title><%: Page.Title %> - Nearest Auto Repair Web Client</title>
+     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" /> 
+      <!-- jQuery for scripts on pages -->
+      <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
+      <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<form id="form1" runat="server">
+        
+    <!--
+        <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        -->
+        
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <a runat="server" href="~/WebForm2.aspx">Tom2Filip</a>
+                </p>
+            </div>
+            
+            <div class="float-right">   
+                
+                <asp:PlaceHolder runat="server" ID="LoginForm" Visible="false">            
+            <span class="loginForm2">
+               <asp:Label runat="server">User Name: </asp:Label>
+                  <asp:TextBox runat="server" ID="UserName" />
+                                                
+               <asp:Label runat="server">  Password: </asp:Label>
+               <asp:TextBox runat="server" ID="Password" TextMode="Password" />
+                   
+                  <asp:Button runat="server" OnClick="SignIn" Text="Log in" />
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Account/Register.aspx" >Register</asp:HyperLink>
+             </span>
+         </asp:PlaceHolder>                  
+                   
+          <div class="lgStatus">
+           <asp:PlaceHolder runat="server" ID="LoginStatus" Visible="false">
+              <asp:Label runat="server" ID="StatusText"></asp:Label>
+            </asp:PlaceHolder>
+               </div>         
+
+             <span class="logoutForm">
+             <asp:Button runat="server" OnClick="SignOut" Text="Log out" ID="LogoutButton" Visible="false" CssClass="logoutButton" CausesValidation="false"  />
+           </span>                 
+                
+                                
+                <div>
+                <nav>
+                    <ul id="menu">
+                        <li><a runat="server" href="~/WebForm2.aspx">Home</a></li>
+                        <li><a runat="server" href="~/About.aspx">About</a></li>
+                        <li><a runat="server">Contact</a></li>                        
+                    </ul>
+                </nav>
+               </div>
+            </div>
+        </div>
+    </header>
+    <div id="body">       
+
+        <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+        <section class="content-wrapper main-content clear-fix">
+            <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+        </section>
+    </div>
+    <footer>
+  
+      <div class="content-wrapper">
+            <div class="float-left">
+                <p>&copy; <%: DateTime.Now.Year %> - Nearest Auto Repair Web Client Application</p>
+            </div>
+        </div>
+    </footer>
+</form>
+
+</body>
+</html>
